@@ -66,10 +66,7 @@ const logger = new Logger('Server');
 const { workspace } = clickUpServices;
 
 // Create server instance
-export const server = new Server({
-  name: "clickup-mcp-server",
-  version: "0.7.2",
-});
+export const server = new Server();
 
 /**
  * Configure the server routes and handlers
@@ -125,7 +122,7 @@ export function configureServer() {
 
     switch (name) {
       case "get_workspace_hierarchy":
-        return handleGetWorkspaceHierarchy();
+        return handleGetWorkspaceHierarchy(params);
       case "get_task":
         return handleGetTask(params);
       case "get_task_comments":
