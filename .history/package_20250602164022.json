@@ -1,5 +1,5 @@
 {
-  "name": "@s.pawel940/clickup-mcp-server",
+  "name": "@tosn0w/clickup-mcp-server",
   "version": "0.7.3",
   "description": "ClickUp MCP Server - Integrate ClickUp tasks with AI through Model Context Protocol",
   "type": "module",
@@ -44,7 +44,7 @@
     "task-organization",
     "project-organization"
   ],
-  "author": "Pablito",
+  "author": "Talib Kareem",
   "license": "MIT",
   "repository": {
     "type": "git",
